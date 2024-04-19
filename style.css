@@ -8,7 +8,7 @@
   --paragraphe_font_weight:500;
 
   --quotes_font_family: "Seaweed Script", cursive;
-  
+
   /* COLOR PALETTE */
   --main_color: #fff6e6;
   --secondary_color: rgba(225,209,167,0.5);
@@ -17,24 +17,43 @@
 
 body {
   background-color: var(--main_color);
+  background: url("images/painting/aiextend.PNG") no-repeat;
+  background-size: cover;
 }
 
 nav {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   background-color: var(--secondary_color);
   width: 70vw;
   margin:auto;
+  border-radius:0px 0px 100px 100px;
 }
 
 nav img {
-  width: 10vw;
-  height: auto;
+  width: 10vh;
 }
 
-nav ul li {
-  font-size: 5rem;
-  font-family: var(--paragraphe_font_family);
+header h1 img {
+  display: block;
+  width: 60vh;
+  margin:auto;
+}
+
+header h1 {
+  margin-top:10vw ;
+}
+
+header a {
+  font-size: 1.5rem;
+  font-family: var(--quotes_font_family);
+  color :black;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top : 1rem;
+  font-weight: 600;
 }
 
 #homepage{
