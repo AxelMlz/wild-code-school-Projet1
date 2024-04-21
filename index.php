@@ -39,6 +39,9 @@ include "components/texts.html";
         </div>
     </section>
     <section id="paintings">
+        <h2>Mes oeuvres</h2>
+        <h1>Hello !!! </h1>
+        
         <?php
         require "components/paintings.html";
         ?>
