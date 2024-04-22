@@ -12,13 +12,23 @@
   /* COLOR PALETTE */
   --main_color: #fff6e6;
   --secondary_color: rgba(225,209,167,0.5);
+  --terciary-color: rgba(255, 246, 230,0.6);
+  --action-color : rgba(151, 6, 0, 1);
+  --secondary-action-color : rgba(252, 68, 68,1);
 
+  /* BORDER PARAMETER */
+  --spacing: 10px
 }
+
+/* CSS HEADER */
 
 body {
   background-color: var(--main_color);
   background: url("images/painting/aiextend.PNG") no-repeat;
   background-size: cover;
+  width: 1000px;
+  margin: auto;
+  box-sizing: border-box;
 }
 
 nav {
@@ -56,6 +66,99 @@ header a {
   font-weight: 600;
 }
 
+/* FIN CSS HEADER */
+/* FORMULAIRE CSS */
+
+section .form label {
+  font-family: var(--paragraphe_font_family);
+}
+
+section .form {
+  margin-top: var(--spacing);
+  margin-bottom: var(--spacing);
+}
+
+.email {
+  background-color: #e1d1a7;
+  width: 600px;
+  border-radius: var(--spacing);
+  height: 50px;
+  padding: var(--spacing);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.email textarea {
+  background-color: var(--terciary-color) ;
+  border-radius: var(--spacing);
+  height: 30px;
+  box-sizing: border-box;
+  flex:1;
+  margin: auto;
+  font-family: var(--quotes_font_family);
+  font-size: 1.2rem;
+  padding-left: var(--spacing);
+  resize: none;
+  overflow: auto;
+}
+
+.message {
+  background-color: #e1d1a7;
+  width: 100%;
+  border-radius: var(--spacing);
+  padding:var(--spacing);
+}
+
+.message textarea {
+  background-color: var(--terciary-color) ;
+  border-radius: var(--spacing);
+  width:100%;
+  height: 260px;
+  margin: auto;
+  margin-top: var(--spacing);
+  box-sizing: border-box;
+  font-family: var(--quotes_font_family);
+  font-size: 1.2em;
+  flex-wrap: nowrap;
+  padding: var(--spacing);
+  resize: none;
+  overflow: auto;
+}
+
+/* START BUTTON CSS */
+
+.btn{
+font-family: var(--paragraphe_font_family);
+font-weight: 0;
+font-size: 18px;
+color: var(--main_color);
+background: linear-gradient(159deg, var(--action-color) 0%, var(--secondary-action-color));
+padding: 16px 40px;
+border: solid #f5b469 2px;
+box-shadow: var(--secondary_color) 5px 5px 34px 5px;
+border-radius: 50px;
+transition : 1658ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+
+}
+
+.btn:hover{
+transition : 1658ms;
+padding: 14px 50px;
+transform : translateY(-0px);
+background: linear-gradient(159deg, #970600 0%, #fc4444 100%);
+color: #fffaf4;
+border: solid 2px #000000;
+
+}
+  
+/* END BUTTON CSS */
+/* FIN FORMULAIRE CSS */
 #homepage{
  
 }
