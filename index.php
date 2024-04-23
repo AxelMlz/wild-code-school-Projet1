@@ -27,90 +27,90 @@ include "components/texts.html";
 </head>
 
 <body>
-    <header>
-        <?php
-        require "components/header.html";
-        ?>
-    </header>
-    <section id="texts">
-        <?php
-        require "components/texts.html";
-        ?>
+    <div class="centered">
 
-        <h2>Mon Histoire</h2>
+        <header>
+            <?php
+            require "components/header.html";
+            ?>
+        </header>
+        <section id="texts">
+            <?php
+            require "components/texts.html";
+            ?>
+
+            <h2>Mon Histoire</h2>
 
 
-        <div class="parent">
+            <div class="parent">
 
-            <div id="div1" class="grid">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor.
-                Ut
-                rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
-                massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo
-                sit
-                amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
-                vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
-                vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+                <div id="div1" class="grid">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor.
+                    Ut
+                    rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
+                    massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo
+                    sit
+                    amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
+                    vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
+                    vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+                </div>
+                <div id="div2" class="grid">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor.
+                    Ut
+                    rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
+                    massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo
+                    sit
+                    amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
+                    vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
+                    vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+                </div>
+                <div id="div3" class="grid">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor.
+                    Ut
+                    rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
+                    massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo
+                    sit
+                    amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
+                    vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
+                    vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+                </div>
+                <div id="div4" class="grid">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor.
+                    Ut
+                    rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
+                    massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo
+                    sit
+                    amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
+                    vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
+                    vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+                </div>
+                <div id="div5" class="grid">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor.
+                    Ut
+                    rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
+                    massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo
+                    sit
+                    amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
+                    vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
+                    vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+                </div>
+
             </div>
-            <div id="div2" class="grid">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor.
-                Ut
-                rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
-                massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo
-                sit
-                amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
-                vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
-                vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
-            </div>
-            <div id="div3" class="grid">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor.
-                Ut
-                rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
-                massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo
-                sit
-                amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
-                vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
-                vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
-            </div>
-            <div id="div4" class="grid">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor.
-                Ut
-                rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
-                massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo
-                sit
-                amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
-                vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
-                vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
-            </div>
-            <div id="div5" class="grid">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor.
-                Ut
-                rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
-                massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo
-                sit
-                amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
-                vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
-                vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
-            </div>
+        </section>
+        <section id="paintings">
 
-        </div>
-    </section>
-    <section id="paintings">
-        <h2>Mes oeuvres</h2>
-        <h1>Hello !!! </h1>
+            <h2>Mes oeuvres</h2>
 
-=======
-        <h2>Mes oeuvres</h2>        
->>>>>>> 2b20f2e278a7e98f0979be09cfe0faa7d8041efb
-        <?php
-        require "components/paintings.html";
-        ?>
-    </section>
-    <section id="form">
-        <?php
-        require "components/form.html";
-        ?>
-    </section>
+            <?php
+            require "components/paintings.html";
+            ?>
+        </section>
+        <section id="form">
+            <?php
+            require "components/form.html";
+            ?>
+        </section>
+    </div>
     <footer>
         <?php
         require "components/footer.html";
