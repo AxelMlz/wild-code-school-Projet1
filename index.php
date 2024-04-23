@@ -99,6 +99,9 @@ include "components/texts.html";
         <h2>Mes oeuvres</h2>
         <h1>Hello !!! </h1>
 
+=======
+        <h2>Mes oeuvres</h2>        
+>>>>>>> 2b20f2e278a7e98f0979be09cfe0faa7d8041efb
         <?php
         require "components/paintings.html";
         ?>
