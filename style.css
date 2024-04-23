@@ -67,6 +67,41 @@ header a {
 }
 
 /* FIN CSS HEADER */
+
+/* SECTION TEXTES */
+
+/* SECTION GALERIE */
+
+.gallery {
+  width: 100vw;
+  padding: 15px;
+  position: relative;
+  column-count: 4;
+  gap: 16px;
+}
+
+.gallery-item {
+  margin-bottom: 14px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;  
+}
+
+@media(max-width:768px) {
+  .gallery{
+    column-count: 2;
+  }
+}
+
+@media(max-width:320px) {
+  .gallery{
+    column-count: 1;
+    margin-bottom: 5px;
+  }
+}
+
 /* FORMULAIRE CSS */
 
 section .form label {
