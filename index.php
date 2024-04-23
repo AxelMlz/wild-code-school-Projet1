@@ -27,6 +27,7 @@ include "components/texts.html";
 </head>
 
 <body>
+<<<<<<< HEAD
     <header>
         <?php
         require "components/header.html";
@@ -103,6 +104,42 @@ include "components/texts.html";
         require "components/footer.html";
         ?>
     </footer>
+=======
+    <div class="centered">
+        <header>
+            <?php
+            require "components/header.html";
+            ?>
+        </header>
+        <section id="texts">
+            <?php
+            require "components/texts.html";
+            ?>
+            <h2>Mon Histoire</h2>
+            <div class="bloc-container">
+
+            </div>
+        </section>
+        <section id="paintings">
+            <h2>Mes oeuvres</h2>
+            <h1>Hello !!! </h1>
+            
+            <?php
+            require "components/paintings.html";
+            ?>
+        </section>
+        <section id="form">
+            <?php
+            require "components/form.html";
+            ?>
+        </section>
+        <footer>
+            <?php
+            require "components/footer.html";
+            ?>
+        </footer>
+    </div>
+>>>>>>> 8498a001f505af46bda26371efcc220f1bdb89c5
 </body>
 
 </html>
