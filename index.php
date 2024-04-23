@@ -14,10 +14,13 @@ include "components/texts.html";
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Seaweed+Script&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Seaweed+Script&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>René Magritte Portfolio</title>
@@ -33,15 +36,59 @@ include "components/texts.html";
         <?php
         require "components/texts.html";
         ?>
+
         <h2>Mon Histoire</h2>
-        <div class="bloc-container">
+
+
+        <div class="parent">
+
+            <div id="div1" class="grid">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor. Ut
+                rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
+                massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo sit
+                amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
+                vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
+                vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+            </div>
+            <div id="div2" class="grid">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor. Ut
+                rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
+                massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo sit
+                amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
+                vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
+                vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+            </div>
+            <div id="div3" class="grid">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor. Ut
+                rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
+                massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo sit
+                amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
+                vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
+                vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+            </div>
+            <div id="div4" class="grid">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor. Ut
+                rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
+                massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo sit
+                amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
+                vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
+                vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+            </div>
+            <div id="div5" class="grid">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor. Ut
+                rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
+                massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo sit
+                amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
+                vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
+                vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+            </div>
 
         </div>
     </section>
     <section id="paintings">
         <h2>Mes oeuvres</h2>
         <h1>Hello !!! </h1>
-        
+
         <?php
         require "components/paintings.html";
         ?>
