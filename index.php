@@ -24,38 +24,40 @@ include "components/texts.html";
 </head>
 
 <body>
-    <header>
-        <?php
-        require "components/header.html";
-        ?>
-    </header>
-    <section id="texts">
-        <?php
-        require "components/texts.html";
-        ?>
-        <h2>Mon Histoire</h2>
-        <div class="bloc-container">
+    <div class="centered">
+        <header>
+            <?php
+            require "components/header.html";
+            ?>
+        </header>
+        <section id="texts">
+            <?php
+            require "components/texts.html";
+            ?>
+            <h2>Mon Histoire</h2>
+            <div class="bloc-container">
 
-        </div>
-    </section>
-    <section id="paintings">
-        <h2>Mes oeuvres</h2>
-        <h1>Hello !!! </h1>
-        
-        <?php
-        require "components/paintings.html";
-        ?>
-    </section>
-    <section id="form">
-        <?php
-        require "components/form.html";
-        ?>
-    </section>
-    <footer>
-        <?php
-        require "components/footer.html";
-        ?>
-    </footer>
+            </div>
+        </section>
+        <section id="paintings">
+            <h2>Mes oeuvres</h2>
+            <h1>Hello !!! </h1>
+            
+            <?php
+            require "components/paintings.html";
+            ?>
+        </section>
+        <section id="form">
+            <?php
+            require "components/form.html";
+            ?>
+        </section>
+        <footer>
+            <?php
+            require "components/footer.html";
+            ?>
+        </footer>
+    </div>
 </body>
 
 </html>
