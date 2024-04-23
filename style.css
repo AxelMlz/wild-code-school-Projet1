@@ -24,11 +24,15 @@
 
 body {
   background-color: var(--main_color);
-  background: url("images/painting/aiextend.PNG") no-repeat;
-  background-size: cover;
-  width: 1000px;
-  margin: auto;
-  box-sizing: border-box;
+  background-image: url("images/painting/aiextend.PNG");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.centered {
+  max-width: 1000px;
+  width: 90%;
+  margin:auto;
 }
 
 nav {
@@ -37,7 +41,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   background-color: var(--secondary_color);
-  width: 70vw;
+  width: 100%;
   margin:auto;
   border-radius:0px 0px 100px 100px;
 }
@@ -53,7 +57,8 @@ header h1 img {
 }
 
 header h1 {
-  margin-top:10vw ;
+  margin-top:17vh ;
+  margin-bottom:49vh ;
 }
 
 header a {
@@ -172,4 +177,13 @@ border: solid 2px #000000;
 }
 #homepage{
 
+}
+
+#paintings{
+  .bloc-container {
+      display: grid;
+      grid-template-columns: 150px 150px 150px 150px;
+      /*grid-template-rows: 200px 200px;*/
+      gap: 24px;
+    }
 }
