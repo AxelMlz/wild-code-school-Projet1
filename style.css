@@ -22,15 +22,11 @@
 
 body {
   background-color: var(--main_color);
-  background-image: url("images/painting/aiextend.PNG");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.centered {
-  max-width: 1000px;
-  width: 90%;
-  margin:auto;
+  background: url("images/painting/aiextend.PNG") no-repeat;
+  background-size: cover;
+  width: 1000px;
+  margin: auto;
+  box-sizing: border-box;
 }
 
 nav {
