@@ -18,6 +18,7 @@ include "components/texts.html";
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Seaweed+Script&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f51b316861.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>René Magritte Portfolio</title>
@@ -52,12 +53,14 @@ include "components/texts.html";
             require "components/form.html";
             ?>
         </section>
-        <footer>
-            <?php
-            require "components/footer.html";
-            ?>
-        </footer>
     </div>
+        <footer>
+            <div class="centered">
+                <?php
+                require "components/footer.html";
+                ?>
+            <div class="centered">
+        </footer>
 </body>
 
 </html>

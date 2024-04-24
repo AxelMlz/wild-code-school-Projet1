@@ -15,6 +15,7 @@
   --terciary-color: rgba(255, 246, 230,0.6);
   --action-color : rgba(151, 6, 0, 1);
   --secondary-action-color : rgba(252, 68, 68,1);
+  --footer_color: rgba(122, 76,51, 1);
 
   /* BORDER PARAMETER */
   --spacing: 10px
@@ -83,9 +84,34 @@ section .form {
   margin-bottom: var(--spacing);
 }
 
+.objet {
+  background-color: #e1d1a7;
+  width: 450px;
+  border-radius: var(--spacing);
+  height: auto;
+  padding: var(--spacing);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.objet select option {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.objet select {
+  background-color: var(--terciary-color);
+  border-radius: var(--spacing);
+  padding: var(--spacing);
+  margin-left: auto;
+
+}
+
 .email {
   background-color: #e1d1a7;
-  width: 600px;
+  width: 675px;
   border-radius: var(--spacing);
   height: 50px;
   padding: var(--spacing);
@@ -94,16 +120,16 @@ section .form {
   align-items: center;
 }
 
-.email textarea {
+.email input {
   background-color: var(--terciary-color) ;
   border-radius: var(--spacing);
   height: 30px;
   box-sizing: border-box;
   flex:1;
   margin: auto;
+  margin-left: var(--spacing);
   font-family: var(--quotes_font_family);
   font-size: 1.2rem;
-  padding-left: var(--spacing);
   resize: none;
   overflow: auto;
 }
@@ -164,9 +190,85 @@ border: solid 2px #000000;
   
 /* END BUTTON CSS */
 /* FIN FORMULAIRE CSS */
-#homepage{
- 
+/* START FOOTER CSS */
+
+footer {
+  background-color: var(--footer_color);
+  padding: var(--spacing);
+  margin-top: var(--spacing);
 }
+
+.footer_arrangement {
+  display: flex;
+  flex-direction: column;
+  color :var(--main_color);
+}
+
+.icones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  padding-top: var(--spacing);
+}
+
+i{
+  display: block;
+  color: var(--main_color);
+  text-align: center;
+  justify-content: center;
+}
+
+.fa-brands {
+  font-size: 2.5rem;
+  padding: var(--spacing);
+}
+
+.footer_nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-radius:0px 0px 100px 100px;
+  padding-bottom: var(--spacing);
+}
+
+.footer_nav a {
+  font-size: 1rem;
+  font-family: var(--paragraphe_font_family);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top : 1rem;
+  color: #fffaf4;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+footer img {
+  width: 10vh;
+}
+
+footer .centered p {
+  font-size: 1rem;
+  font-family: var(--paragraphe_font_family);
+  color: #fffaf4;
+  text-decoration: none;
+  margin: auto;
+  font-weight: 400;
+  padding: var(--spacing);
+}
+
+.footer_arrangement p a {
+  text-decoration: underline;
+  color: #fffaf4;
+}
+
+/* END FOOTER CSS */
+
 #texts{
     .bloc-container {
         display: grid;
@@ -174,9 +276,6 @@ border: solid 2px #000000;
         grid-template-rows: 200px 200px;
         gap: 20px;
       }
-}
-#homepage{
-
 }
 
 #paintings{

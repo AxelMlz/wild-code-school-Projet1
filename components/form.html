@@ -1,16 +1,27 @@
 <form action="" method="post">
+    
+    <div class="form objet">
+        <label for="object">Objet du email : </label>
+        <select id="select" name="select" required></input>
+            <option value="">--Quel est l'objet de votre email ?--</option>
+            <option value="rendez_vous">Je souhaite prendre un rendez vous</option>
+            <option value="achat">Je souhaite acheter une oeuvre</option>
+            <option value="expertise">Je souhaite faire expertiser une oeuvre</option>
+            <option value="autre">Autre</option>
+        </select>
+    </div>
     <div class="form email">
-        <label for="name">E-mail : </label>
-        <textarea type="text" name="name" placeholder="jacques.wergifosse@mail.be"></textarea>
+        <label for="email">E-mail : </label>
+        <input type="email" id="email" name="email" placeholder="jacques.wergifosse@mail.be" required></input>
     </div>
 
     <div class="form message">
         <label for="message">Entre ton message :</label>
-        <textarea type="text" name="message" placeholder="Cher petit, cher grand,
-J'ai reçu avec une rapidité inusitée ta correspondance, quelle débauche cette sacrée exposition nous fait passer dans le domaine épistolier ! Pour résumer donc une fois pour toutes : je te verrai à Liège samedi à la brune..."></textarea>
+        <textarea type="text" id='message' name="message" placeholder="Cher petit, cher grand,
+J'ai reçu avec une rapidité inusitée ta correspondance, quelle débauche cette sacrée exposition nous fait passer dans le domaine épistolier ! Pour résumer donc une fois pour toutes : je te verrai à Liège samedi à la brune..." required ></textarea>
     </div>
 
     <div>
-        <input class="btn" type="submit" value="Envoyer">
+        <button class="btn" type="submit">Envoyer</button>
     </div>
 </form>
