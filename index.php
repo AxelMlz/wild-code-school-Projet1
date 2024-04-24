@@ -45,54 +45,37 @@ include "components/texts.html";
             <div class="parent">
 
                 <div id="div1" class="grid">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor.
-                    Ut
-                    rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
-                    massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo
-                    sit
-                    amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
-                    vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
-                    vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+                    Rene Magritte, l'un des artistes surréalistes les plus emblématiques du 20e siècle, est né le 21
+                    novembre 1898 à Lessines, en Belgique. Sa passion pour l'art a été évidente dès son plus jeune âge,
+                    et il a étudié à l'Académie Royale des Beaux-Arts de Bruxelles. Cependant, il a rapidement trouvé
+                    l'enseignement traditionnel restrictif et a commencé à explorer des styles plus avant-gardistes.
                 </div>
                 <div id="div2" class="grid">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor.
-                    Ut
-                    rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
-                    massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo
-                    sit
-                    amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
-                    vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
-                    vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+                    Dans les années 1920, Magritte a déménagé à Paris, où il a été influencé par le mouvement
+                    surréaliste émergent. Il a travaillé aux côtés d'artistes comme André Breton et Salvador Dalí,
+                    explorant les profondeurs de l'inconscient à travers son art. Ses œuvres les plus célèbres de cette
+                    époque incluent "La Trahison des images" avec sa phrase emblématique "Ceci n'est pas une pipe".
                 </div>
                 <div id="div3" class="grid">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor.
-                    Ut
-                    rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
-                    massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo
-                    sit
-                    amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
-                    vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
-                    vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+
+                    Au début de sa carrière, Magritte a travaillé dans une agence publicitaire pour subvenir à ses
+                    besoins financiers, tout en peignant et en développant son style artistique unique en parallèle. Il
+                    a expérimenté diverses techniques et a finalement développé son style distinctif de réalisme
+                    magique, caractérisé par des représentations précises d'objets ordinaires dans des contextes
+                    insolites.
+
                 </div>
                 <div id="div4" class="grid">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor.
-                    Ut
-                    rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
-                    massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo
-                    sit
-                    amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
-                    vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
-                    vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+                    Malgré sa renommée internationale, Magritte a maintenu une vie privée réservée. Il était connu pour
+                    être un homme tranquille et introverti, préférant se concentrer sur son travail plutôt que sur la
+                    célébrité. Il a vécu la majeure partie de sa vie en Belgique avec sa femme, Georgette, qui est
+                    également devenue une muse pour ses peintures.
                 </div>
                 <div id="div5" class="grid">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu viverra turpis, id sodales dolor.
-                    Ut
-                    rutrum molestie tellus, sit amet tincidunt tortor tincidunt non. Duis in faucibus lectus, ut dapibus
-                    massa. Proin ut nulla eget odio vulputate tempus at non diam. Nunc et ipsum semper, sagittis justo
-                    sit
-                    amet, rhoncus nisi. Donec urna dui, rutrum at pharetra a, tempor eu lectus. Suspendisse diam sapien,
-                    vestibulum non vehicula a, faucibus in ante. Pellentesque egestas commodo leo vel tempus. Maecenas
-                    vestibulum molestie suscipit. Pellentesque iaculis sapien nec est consectetur placerat.
+                    À la fin de sa vie, Magritte a continué à produire des œuvres d'une profondeur conceptuelle
+                    remarquable. Il est décédé le 15 août 1967 à Bruxelles, laissant derrière lui un héritage artistique
+                    durable qui continue d'inspirer et de fasciner les générations suivantes d'artistes et de
+                    spectateurs.
                 </div>
 
             </div>
