@@ -1,4 +1,4 @@
-<?php if (empty($errors) &&(empty($_POST) === false)): ?>
+<?php if (empty($errors) && (!empty($_POST))): ?>
 
 <?php
 include 'components/result.php';

@@ -17,6 +17,7 @@
     <script src='https://kit.fontawesome.com/f51b316861.js' crossorigin='anonymous'></script>
     <link rel='stylesheet' href='reset.css'>
     <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='phonestyle.css' media='(max-width: 780px)'>
     <title>René Magritte Portfolio</title>
 </head>
 
