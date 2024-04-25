@@ -8,24 +8,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // foreach($data as $key => $value) {
     //     if (empty($value)) {
-    //         $errors[] = "Veuillez saisir un $key";
+    //         $errors[] = 'Veuillez saisir un $key';
     //     }
     // }
 
     if (empty($data['email'])) {
-        $errors[] = "Veuillez saisir un email";
+        $errors[] = 'Veuillez saisir un email';
     }
 
     if (empty($data['objet'])) {
-        $errors[] = "Veuillez saisir un objet";
+        $errors[] = 'Veuillez saisir un objet';
     }
 
     if (empty($data['message'])) {
-        $errors[] = "Veuillez saisir un message";
+        $errors[] = 'Veuillez saisir un message';
     }
 
     if (filter_var($data['email'], FILTER_VALIDATE_EMAIL) === true) {
-        $errors[] = "Le format de votre addresse mail semble incorrect";
+        $errors[] = 'Le format de votre addresse mail semble incorrect';
     }
 
     if (strlen($data['message']) < 30 ) {

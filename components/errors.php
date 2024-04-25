@@ -1,7 +1,7 @@
 <?php if (!empty($errors)) : ?>
 
     <?php
-    include "components/result.php";
+    include 'components/result.php';
     ?>
 
     <h3>Merci de corriger les erreurs suivantes : </h3>
