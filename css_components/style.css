@@ -13,21 +13,21 @@
   --secondary_color: rgba(225, 209, 167, 0.5);
   --terciary-color: rgba(255, 246, 230, 0.6);
   --action-color: rgba(90, 117, 136, 1);
-  --error-color: rgba(90, 117, 136, 1);
+  --error-color: #970600;
   --secondary-action-color: rgb(164, 164, 164);
   --footer_color: rgba(122, 76, 51, 1);
-  --action-button-color : rgb(62, 83, 100);
-  --action-button-second-color : rgb(157, 201, 245);
+  --action-button-color: rgb(62, 83, 100);
+  --action-button-second-color: rgb(157, 201, 245);
 
   /* BORDER PARAMETER */
-  --spacing: 20px;
+  --spacing: 10px;
 }
 
 /* ALL BODY */
 
 body {
   background-color: var(--main_color);
-  background-image: url('images/painting/aiextend.PNG');
+  background-image: url('../images/painting/aiextend.PNG');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -52,7 +52,7 @@ h3 {
   font-size: 1.5rem;
   font-weight: var(--paragraphe_font_weight);
   text-decoration: underline;
-  color: var(--action-color);
+  color: var(--error-color);
   margin-bottom: var(--spacing);
 }
 
@@ -70,6 +70,17 @@ h3 {
   margin-bottom: 30px;
   list-style: circle;
   list-style-position: inside;
+}
+
+.errorList h3 {
+  font-family: var(--paragraphe_font_family);
+  font-size: 1rem;
+  font-weight: var(--paragraphe_font_weight);
+  color: var(--error-color);
+  margin-bottom: 30px;
+  list-style: circle;
+  list-style-position: inside;
+  color: var(--error-color)
 }
 
 /* CSS HEADER */
@@ -108,50 +119,6 @@ header a {
   text-transform: uppercase;
   margin-top: 1rem;
   font-weight: 600;
-}
-
-@media (max-width: 768px) {
-  body {
-    background-color: var(--main_color);
-    background-image: url('images/painting/backgroundblurtest1.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-
-  }
-
-  h2 {
-    font-size: 1.5rem;
-    margin: 10% auto 5% auto;
-  }
-
-  nav {
-    border-radius: 0px 0px 20px 20px;
-  }
-
-  nav img {
-    width: 5vh;
-  }
-
-  header a {
-    font-size: 3vw;
-    font-family: var(--quotes_font_family);
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 0.5rem;
-    font-weight: 600;
-  }
-
-  header h1 img {
-    display: block;
-    width: 60vw;
-    margin: auto;
-  }
-
-  header h1 {
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-  }
 }
 
 /* FIN CSS HEADER */
@@ -202,7 +169,6 @@ header a {
 
 .gallery {
   width: 100%;
-  padding: 15px;
   position: relative;
   column-count: 4;
   gap: 16px;
@@ -215,20 +181,6 @@ header a {
 .gallery-item img {
   width: 100%;
   height: auto;
-}
-
-@media (max-width: 768px) {
-  .gallery {
-    column-count: 2;
-    box-sizing: border-box;
-  }
-}
-
-@media (max-width: 320px) {
-  .gallery {
-    column-count: 1;
-    margin-bottom: 5px;
-  }
 }
 
 /* FORMULAIRE CSS */
@@ -265,7 +217,7 @@ section .form__field__color--shape {
   border-radius: var(--spacing);
   padding: var(--spacing);
   margin-left: auto;
-
+  box-sizing: border-box;
 }
 
 .form__email__layout {
@@ -312,19 +264,7 @@ section .form__field__color--shape {
   overflow: auto;
 }
 
-@media (max-width: 768px) {
-  .form__subject__layout {
-    width: 100%;
-  }
 
-  .form__email__layout {
-    width: 100%;
-  }
-
-  .form__message__layout {
-    width: none;
-  }
-}
 
 /* START BUTTON CSS */
 
@@ -358,12 +298,6 @@ section .form__field__color--shape {
   transform: translate(2px, 2px);
 }
 
-@media (min-width: 768px) {
-  .button-74 {
-    min-width: 120px;
-    padding: 0 25px;
-  }
-}
 
 /* END BUTTON CSS */
 /* FIN FORMULAIRE CSS */
