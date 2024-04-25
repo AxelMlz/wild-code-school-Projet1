@@ -3,10 +3,10 @@
 :root {
   /* FONT VARIABLE */
 
-  --paragraphe_font_family: 'Montserrat', sans-serif;
+  --paragraphe_font_family: "Montserrat", sans-serif;
   --paragraphe_font_weight: 500;
 
-  --quotes_font_family: 'Seaweed Script', cursive;
+  --quotes_font_family: "Seaweed Script", cursive;
 
   /* COLOR PALETTE */
   --main_color: #fff6e6;
@@ -27,7 +27,7 @@
 
 body {
   background-color: var(--main_color);
-  background-image: url('../images/painting/aiextend.PNG');
+  background-image: url("../images/painting/aiextend.PNG");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -80,7 +80,7 @@ h3 {
   margin-bottom: 30px;
   list-style: circle;
   list-style-position: inside;
-  color: var(--error-color)
+  color: var(--error-color);
 }
 
 /* CSS HEADER */
@@ -264,10 +264,7 @@ section .form__field__color--shape {
   overflow: auto;
 }
 
-
-
 /* START BUTTON CSS */
-
 
 /* CSS */
 .button-74 {
@@ -297,7 +294,6 @@ section .form__field__color--shape {
   box-shadow: #422800 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
-
 
 /* END BUTTON CSS */
 /* FIN FORMULAIRE CSS */
