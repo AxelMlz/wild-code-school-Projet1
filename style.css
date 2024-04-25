@@ -16,7 +16,7 @@
   --secondary-action-color: rgba(252, 68, 68, 1);
 
   /* BORDER PARAMETER */
-  --spacing: 10px;
+  --spacing: 20px;
 }
 
 /* CSS HEADER */
@@ -26,7 +26,6 @@ body {
   background-image: url("images/painting/aiextend.PNG");
   background-size: contain;
   background-repeat: no-repeat;
-  
 }
 
 .centered {
@@ -85,11 +84,12 @@ header a {
   .grid {
     display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius:var(--spacing);
+    /* justify-content: center; */
+    border-radius: 50px;
     font-family: var(--paragraphe_font_family);
     background-color: hsl(0deg 0% 100% / 42%);
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding: 25px;
   }
   #div1 {
     grid-area: 1 / 1 / 4 / 3;
