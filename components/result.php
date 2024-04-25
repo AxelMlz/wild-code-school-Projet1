@@ -6,12 +6,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $errors = [];
 
-    // foreach($data as $key => $value) {
-    //     if (empty($value)) {
-    //         $errors[] = 'Veuillez saisir un $key';
-    //     }
-    // }
-
     if (empty($data['email'])) {
         $errors[] = 'Veuillez saisir un email';
     }

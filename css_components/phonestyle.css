@@ -1,0 +1,117 @@
+:root {
+    /* FONT VARIABLE */
+
+    --paragraphe_font_family: 'Montserrat', sans-serif;
+    --paragraphe_font_weight: 500;
+
+    --quotes_font_family: 'Seaweed Script', cursive;
+
+    /* COLOR PALETTE */
+    --main_color: #fff6e6;
+    --secondary_color: rgba(225, 209, 167, 0.5);
+    --terciary-color: rgba(255, 246, 230, 0.6);
+    --action-color: rgba(90, 117, 136, 1);
+    --error-color: #970600;
+    --secondary-action-color: rgb(164, 164, 164);
+    --footer_color: rgba(122, 76, 51, 1);
+    --action-button-color: rgb(62, 83, 100);
+    --action-button-second-color: rgb(157, 201, 245);
+
+    /* BORDER PARAMETER */
+    --spacing: 10px;
+}
+
+/* ALL BODY */
+
+body {
+    background-color: var(--main_color);
+    background-image: url('../images/painting/backgroundblurtest1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 10% auto 5% auto;
+}
+
+/* CSS HEADER */
+
+nav {
+    border-radius: 0px 0px 20px 20px;
+}
+
+nav img {
+    width: 5vh;
+}
+
+header a {
+    font-size: 3vw;
+    font-family: var(--quotes_font_family);
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+
+header h1 img {
+    display: block;
+    width: 60vw;
+    margin: auto;
+}
+
+header h1 {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+/* SECTION GALERIE */
+
+.gallery {
+    column-count: 2;
+    box-sizing: border-box;
+}
+
+.button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+}
+
+/* FORMULAIRE CSS */
+
+.form__field__color--shape {
+    flex-direction: column;
+    height: auto;
+}
+
+.form__subject__layout {
+    width: 100%;
+}
+
+.form__email__layout {
+    width: 100%;
+    flex-direction: column;
+}
+
+.form__message__layout {
+    width: none;
+    flex-direction: column;
+}
+
+.form__email__layout input,
+.form__subject__layout select {
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+}
+
+.form__subject__layout select option {
+    text-align: center;
+}
+
+section .form__field__color--shape label {
+    padding-bottom: var(--spacing);
+}
