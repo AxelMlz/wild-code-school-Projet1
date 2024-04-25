@@ -88,8 +88,12 @@ include "components/texts.html";
             ?>
         </section>
         <section id="form">
+            <h2>Me contacter</h2>
             <?php
-            require "components/form.html";
+            include "components/result.php";
+            include "components/errors.php";
+            include "components/validate.php";
+            require "components/form.php";
             ?>
         </section>
     </div>

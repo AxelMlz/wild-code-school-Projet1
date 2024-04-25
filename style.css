@@ -20,7 +20,7 @@
   --spacing: 10px;
 }
 
-/* CSS HEADER */
+/* ALL BODY */ 
 
 body {
   background-color: var(--main_color);
@@ -35,6 +35,42 @@ body {
   width: 90%;
   margin: auto;
 }
+
+h2 {
+  font-family: var(--quotes_font_family);
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  margin:10% auto 5% auto;
+}
+
+h3 {
+  font-family: var(--paragraphe_font_family);
+  font-size: 2rem;
+  font-weight: var(--paragraphe_font_weight);
+  text-decoration: underline;
+  color: var(--action-color);
+  margin-bottom: var(--spacing);
+}
+
+.validate {
+  text-decoration: underline;
+  color: #659acf;
+  margin-bottom: 30px ;
+}
+
+.errorList{
+  font-family: var(--paragraphe_font_family);
+  font-size: 1rem;
+  font-weight: var(--paragraphe_font_weight);
+  color: var(--action-color);
+  margin-bottom: 30px;
+  list-style: circle;
+  list-style-position: inside;
+}
+
+/* CSS HEADER */
 
 nav {
   display: flex;
@@ -70,6 +106,50 @@ header a {
   text-transform: uppercase;
   margin-top: 1rem;
   font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: var(--main_color);
+    background-image: url("images/painting/backgroundblurtest1.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin:10% auto 5% auto;
+  }
+
+  nav {
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  nav img {
+    width: 5vh;
+  }
+
+  header a {
+    font-size: 3vw;
+    font-family: var(--quotes_font_family);
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    font-weight: 600;
+  }
+
+  header h1 img {
+    display: block;
+    width: 60vw;
+    margin: auto;
+  }
+
+  header h1 {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
 }
 
 /* FIN CSS HEADER */
@@ -149,11 +229,12 @@ section .form label {
 section .form {
   margin-top: var(--spacing);
   margin-bottom: var(--spacing);
+  box-sizing: border-box;
 }
 
 .objet {
   background-color: #e1d1a7;
-  width: 600px;
+  width: 60%;
   border-radius: var(--spacing);
   height: auto;
   padding: var(--spacing);
@@ -178,7 +259,7 @@ section .form {
 
 .email {
   background-color: #e1d1a7;
-  width: 600px;
+  width: 60%;
   border-radius: var(--spacing);
   height: 50px;
   padding: var(--spacing);
@@ -224,37 +305,57 @@ section .form {
   overflow: auto;
 }
 
-/* START BUTTON CSS */
+@media (max-width: 768px) {
+  .objet {
+    width: 100%;
+  }
 
-.btn {
-  font-family: var(--paragraphe_font_family);
-  font-weight: 0;
-  font-size: 18px;
-  color: var(--main_color);
-  background: linear-gradient(
-    159deg,
-    var(--action-color) 0%,
-    var(--secondary-action-color)
-  );
-  padding: 16px 40px;
-  border: solid #f5b469 2px;
-  box-shadow: var(--secondary_color) 5px 5px 34px 5px;
-  border-radius: 50px;
-  transition: 1658ms;
-  transform: translateY(0);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  cursor: pointer;
+  .email {
+    width: 100%;
+  }
+
+  .message {
+    width: none;
+  }
 }
 
-.btn:hover {
-  transition: 1658ms;
-  padding: 14px 50px;
-  transform: translateY(-0px);
-  background: linear-gradient(159deg, #970600 0%, #fc4444 100%);
-  color: #fffaf4;
-  border: solid 2px #000000;
+/* START BUTTON CSS */
+
+
+/* CSS */
+.button-74 {
+  background-color:var(--main_color);
+  border: 2px solid var(--footer_color);
+  border-radius: 30px;
+  box-shadow: var(--footer_color) 4px 4px 0 0;
+  color: var(--footer_color);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
 }
 
 /* END BUTTON CSS */
