@@ -18,9 +18,8 @@ include "components/texts.html";
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Seaweed+Script&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Seaweed+Script&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f51b316861.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>René Magritte Portfolio</title>
@@ -89,17 +88,22 @@ include "components/texts.html";
             ?>
         </section>
         <section id="form">
+            <h2>Me contacter</h2>
             <?php
-            require "components/form.html";
+            include "components/result.php";
+            include "components/errors.php";
+            include "components/validate.php";
+            require "components/form.php";
             ?>
         </section>
     </div>
-    <footer>
-        <?php
-        require "components/footer.html";
-        ?>
-    </footer>
-
+        <footer>
+            <div class="centered">
+                <?php
+                require "components/footer.html";
+                ?>
+            <div class="centered">
+        </footer>
 </body>
 
 </html>
