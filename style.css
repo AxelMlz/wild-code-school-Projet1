@@ -20,7 +20,7 @@
   --action-button-second-color : rgb(157, 201, 245);
 
   /* BORDER PARAMETER */
-  --spacing: 10px;
+  --spacing: 20px;
 }
 
 /* ALL BODY */
@@ -30,7 +30,6 @@ body {
   background-image: url('images/painting/aiextend.PNG');
   background-size: contain;
   background-repeat: no-repeat;
-
 }
 
 .body__all__centered {
@@ -170,11 +169,12 @@ header a {
   .texts__boxes__content {
     display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius: var(--spacing);
+    /* justify-content: center; */
+    border-radius: 50px;
     font-family: var(--paragraphe_font_family);
     background-color: hsl(0deg 0% 100% / 42%);
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding: 25px;
   }
 
   #texts__boxes__1 {
