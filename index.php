@@ -19,6 +19,7 @@
     <link rel='stylesheet' href='css_components/style.css'>
     <link rel='stylesheet' href='css_components/phonestyle.css' media='(max-width: 768px)'>
     <link rel='stylesheet' href='css_components/smallphonestyle.css' media='(max-width: 320px)'>
+    <script async src="script.js"></script>
     <title>René Magritte Portfolio</title>
 </head>
 

@@ -24,13 +24,13 @@
         </select>
     </div>
 
-    <div class='form__field__color--shape form__message__layout'>
+    <div id='formMessageLayout' class='form__field__color--shape form__message__layout'>
         <label for='message'>Entre ton message :</label>
         <textarea type='text' id='message' name='message' placeholder='Cher petit, cher grand,
 J ai reçu avec une rapidité inusitée ta correspondance, quelle débauche cette sacrée exposition nous fait passer dans le domaine épistolier ! Pour résumer donc une fois pour toutes : je te verrai à Liège samedi à la brune...' required ></textarea>
     </div>
 
     <div>
-        <button class='button-74' role='button' type='submit' name='button'>Ceci n est pas un bouton</button>
+        <button id='button' class='button' role='button' type='submit' name='button'>Ceci n est pas un bouton</button>
     </div>
 </form>
