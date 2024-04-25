@@ -1,3 +1,7 @@
+<?php
+    include "components/result.php";
+?>
+
 <form action="" method="post">
     
     <div class="form email">
@@ -6,8 +10,8 @@
     </div>
 
     <div class="form objet">
-        <label for="object">Objet du email : </label>
-        <select id="select" name="select" required></input>
+        <label for="objet">Objet du email : </label>
+        <select id="objet" name="objet" required>
             <option value="">--Quel est l'objet de votre email ?--</option>
             <option value="rendez_vous">Je souhaite prendre un rendez vous</option>
             <option value="achat">Je souhaite acheter une oeuvre</option>
@@ -15,7 +19,7 @@
             <option value="autre">Autre</option>
         </select>
     </div>
-    
+
     <div class="form message">
         <label for="message">Entre ton message :</label>
         <textarea type="text" id='message' name="message" placeholder="Cher petit, cher grand,
@@ -23,6 +27,6 @@ J'ai reçu avec une rapidité inusitée ta correspondance, quelle débauche cett
     </div>
 
     <div>
-        <button class="btn" type="submit">Envoyer</button>
+        <button class="button-74" role="button" type="submit" name="button">Ceci n est pas un bouton</button>
     </div>
 </form>
