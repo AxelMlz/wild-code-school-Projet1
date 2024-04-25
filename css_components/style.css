@@ -138,6 +138,7 @@ header a {
     align-items: center;
     /* justify-content: center; */
     border-radius: 50px;
+    box-sizing: border-box;
     font-family: var(--paragraphe_font_family);
     background-color: hsl(38.4 100% 95.1% / 42%);
     /* background-color: hsl(0deg 0% 100% / 42%); */

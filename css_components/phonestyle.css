@@ -1,117 +1,164 @@
 :root {
-    /* FONT VARIABLE */
+  /* FONT VARIABLE */
 
-    --paragraphe_font_family: 'Montserrat', sans-serif;
-    --paragraphe_font_weight: 500;
+  --paragraphe_font_family: "Montserrat", sans-serif;
+  --paragraphe_font_weight: 500;
 
-    --quotes_font_family: 'Seaweed Script', cursive;
+  --quotes_font_family: "Seaweed Script", cursive;
 
-    /* COLOR PALETTE */
-    --main_color: #fff6e6;
-    --secondary_color: rgba(225, 209, 167, 0.5);
-    --terciary-color: rgba(255, 246, 230, 0.6);
-    --action-color: rgba(90, 117, 136, 1);
-    --error-color: #970600;
-    --secondary-action-color: rgb(164, 164, 164);
-    --footer_color: rgba(122, 76, 51, 1);
-    --action-button-color: rgb(62, 83, 100);
-    --action-button-second-color: rgb(157, 201, 245);
+  /* COLOR PALETTE */
+  --main_color: #fff6e6;
+  --secondary_color: rgba(225, 209, 167, 0.5);
+  --terciary-color: rgba(255, 246, 230, 0.6);
+  --action-color: rgba(90, 117, 136, 1);
+  --error-color: #970600;
+  --secondary-action-color: rgb(164, 164, 164);
+  --footer_color: rgba(122, 76, 51, 1);
+  --action-button-color: rgb(62, 83, 100);
+  --action-button-second-color: rgb(157, 201, 245);
 
-    /* BORDER PARAMETER */
-    --spacing: 10px;
+  /* BORDER PARAMETER */
+  --spacing: 10px;
 }
 
 /* ALL BODY */
 
 body {
-    background-color: var(--main_color);
-    background-image: url('../images/painting/backgroundblurtest1.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-color: var(--main_color);
+  background-image: url("../images/painting/backgroundblurtest1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 h2 {
-    font-size: 1.5rem;
-    margin: 10% auto 5% auto;
+  font-size: 1.5rem;
+  margin: 10% auto 5% auto;
 }
 
 /* CSS HEADER */
 
 nav {
-    border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px 20px 20px;
 }
 
 nav img {
-    width: 5vh;
+  width: 5vh;
 }
 
 header a {
-    font-size: 3vw;
-    font-family: var(--quotes_font_family);
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 0.5rem;
-    font-weight: 600;
+  font-size: 3vw;
+  font-family: var(--quotes_font_family);
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  font-weight: 600;
 }
 
 header h1 img {
-    display: block;
-    width: 60vw;
-    margin: auto;
+  display: block;
+  width: 60vw;
+  margin: auto;
 }
 
 header h1 {
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+/* SECTION TEXTES */
+
+#texts {
+  .texts__boxes__template {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    /* grid-column-gap: 20px;
+    grid-row-gap: 20px; */
+  }
+
+  .texts__boxes__content {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: var(--paragraphe_font_family);
+    background-color: hsl(38.4 100% 95.1% / 42%);
+    color: rgb(43, 51, 57);
+    /* background-color: hsl(0deg 0% 100% / 42%); */
+    /* font-size: 0.5rem; */
+    /* padding: 5px; */
+    /* line-height: 27px; */
+    -webkit-box-shadow: 0px 0px 16px 7px rgba(255, 246, 230, 0.42);
+    box-shadow: 0px 0px 16px 7px rgba(255, 246, 230, 0.42);
+  }
+
+  #texts__boxes__1 {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+
+  #texts__boxes__2 {
+    grid-area: 2 / 1 / 4 / 2;
+  }
+
+  #texts__boxes__3 {
+    grid-area: 2 / 2 / 4 / 3;
+  }
+
+  #texts__boxes__4 {
+    grid-area: 4 / 1 / 6 / 2;
+  }
+
+  #texts__boxes__5 {
+    grid-area: 4 / 2 / 6 / 3;
+  }
 }
 
 /* SECTION GALERIE */
 
 .gallery {
-    column-count: 2;
-    box-sizing: border-box;
+  column-count: 2;
+  box-sizing: border-box;
 }
 
 .button-74 {
-    min-width: 120px;
-    padding: 0 25px;
+  min-width: 120px;
+  padding: 0 25px;
 }
 
 /* FORMULAIRE CSS */
 
 .form__field__color--shape {
-    flex-direction: column;
-    height: auto;
+  flex-direction: column;
+  height: auto;
 }
 
 .form__subject__layout {
-    width: 100%;
+  width: 100%;
 }
 
 .form__email__layout {
-    width: 100%;
-    flex-direction: column;
+  width: 100%;
+  flex-direction: column;
 }
 
 .form__message__layout {
-    width: none;
-    flex-direction: column;
+  width: none;
+  flex-direction: column;
 }
 
 .form__email__layout input,
 .form__subject__layout select {
-    width: 100%;
-    box-sizing: border-box;
-    margin: auto;
-    text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
 }
 
 .form__subject__layout select option {
-    text-align: center;
+  text-align: center;
 }
 
 section .form__field__color--shape label {
-    padding-bottom: var(--spacing);
+  padding-bottom: var(--spacing);
 }
