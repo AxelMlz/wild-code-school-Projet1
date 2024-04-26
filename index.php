@@ -18,6 +18,7 @@
     <link rel='stylesheet' href='css_components/reset.css'>
     <link rel='stylesheet' href='css_components/style.css'>
     <link rel='stylesheet' href='css_components/phonestyle.css' media='(max-width: 768px)'>
+    <link rel='stylesheet' href='css_components/mediumphonestyle.css' media='(max-width: 550px)'>
     <link rel='stylesheet' href='css_components/smallphonestyle.css' media='(max-width: 320px)'>
     <title>René Magritte Portfolio</title>
 </head>
