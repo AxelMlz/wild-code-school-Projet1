@@ -39,7 +39,7 @@
                 require 'components/paintings.php';
             ?>
         </section>
-        <section id='form__field__color--shape__field__color--shape'>
+        <section id='form'>
             <?php
                 require 'components/form.php';
             ?>
@@ -50,7 +50,8 @@
                 <?php
                     require 'components/footer.html';
                 ?>
-            <div class='body__all__centered'>
+            </div>
+
         </footer>
 </body>
 
